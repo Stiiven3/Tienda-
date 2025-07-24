@@ -2,6 +2,8 @@ let total = 2000;
 let factura = document.querySelector("#factura");
 let boton = document.querySelector("#boton");
 
+//
+
 function descuento() {
   if (total > 1000) {
     total = (total / 100) * 90;
